@@ -14,7 +14,13 @@
     />
     <!-- Css Global -->
     <link rel="stylesheet" href="./assets/css/global.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/pokedex.css"
+      <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&family=Roboto:wght@100;300;400;500;700&display=swap"
@@ -25,22 +31,9 @@
   <body>
     <section class="content">
       <h1>Pokedex</h1>
-      <ol class="pokemons">
-        <li>
-          <span class="number">#001</span><span class="name">Bulbasaur</span>
-          <div>
-            <ol class="details">
-              <li class="type">Grass</li>
-              <li class="type">Poison</li>
-            </ol>
-          </div>
-          <img
-            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"
-            alt=""
-          />
-        </li>
-      </ol>
+      <ol id="pokemonList" class="pokemons"></ol>
     </section>
+    <script src="./assets/js/poke-api.js"></script>
     <script src="./assets/js/main.js"></script>
   </body>
 </html>
