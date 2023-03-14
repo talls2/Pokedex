@@ -7,3 +7,6 @@
 - HTML
 - Javascript
 - Pokeapi (https://pokeapi.co/)
+
+
+# Take a look at it: https://talls2.github.io/Pokedex/
