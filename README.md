@@ -1,6 +1,6 @@
 # Pokedex that Lists all pokemons from first generation
 
-# It was used in this project:
+# Was used in this project:
 
 - Fetch
 - CSS
